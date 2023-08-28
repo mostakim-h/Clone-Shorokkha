@@ -50,17 +50,16 @@
 /* nav design end */
 
 /* home design start */
-.home{
+.home-bg{
   display: block;
-  min-height: 60vh;
   background-image: url(https://surokkha.gov.bd/static/media/banner-bg.7358efba.jpg);
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
 }
 
-.home .home-container{
-  height: 60vh;
+.home-bg .home-container{
+  min-height: 700px;
   max-width: 1200px;
   margin: auto;
   display: flex;
@@ -118,9 +117,95 @@
 .home-left-container-top-left .items::before{
   position: absolute;
   content: "";
-  border: 6px solid black;
+  border: 6px solid green;
   margin-left: -40px;
   height: 40px;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
+.home-help-line{
+  margin: -50px auto 50px auto;
+  border-radius: 8px;
+  padding: 5px;
+  max-width: 1200px;
+  background: wheat;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: 2px 5px 5px rgb(164, 164, 164);
+}
+
+.home-help-line .help-line-items{
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 400px;
+  transition: 0.5s;
+}
+
+.home-help-line .help-line-items:hover{
+  background: white;
+  color: purple;
+}
+
+.system-of-corona-content{
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.system-of-corona-content h2{
+  padding: 10px 0 10px 20px;
+  border-left: 8px solid;
+  border-radius: 5px;
+}
+
+.direction-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.direction-items{
+  width: 400px;
+  padding: 20px;
+}
+
+.direction-items h3{
+  margin: 10px 0;
+}
+
+.mozib-100-container{
+
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.mozib-100-container .mozib-100-items-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: end;
+  margin-top: 20px;
+}
+
+.mozib-100-container h2{
+  padding: 10px 0 10px 20px;
+  border-left: 8px solid;
+  border-radius: 5px;
+}
+
+.mozib-100-container .mozib-100-items-container .mozib-100-items{
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+}
+/* home design end */

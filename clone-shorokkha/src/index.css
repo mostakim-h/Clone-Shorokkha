@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+}
+
+/* nav design start */
+
+/* .navber{
+  background: wheat;
+} */
+
+.nav-container{
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 5px;
+}
+
+.nav-list a{
+  text-decoration: none;
+  margin-left: 10px;
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.nav-list a:hover{
+  background: wheat;
+}
+
+.nav-list button{
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: rgb(255, 140, 0);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 10px;
+  color: white;
+  font-family: bangla;
+  font-size: 18px;
+}
+
+/* nav design end */
+
+/* home design start */
+.home{
+  display: block;
+  min-height: 60vh;
+  background-image: url(https://surokkha.gov.bd/static/media/banner-bg.7358efba.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.home .home-container{
+  height: 60vh;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-left-container{
+  background: #ffffff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  max-height: 420px;
+}
+
+.home-left-container-top-right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.home-left-container-top-right img{
+  padding: 20px;
+}
+
+.home-left-container-top-right strong{
+  padding: 20px;
+  font-size: 30px;
+}
+
+.home-left-container-top-left{
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-left-container-top-left .items{
+  margin: 10px;
+  padding: 4px 20px 4px 40px;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.home-left-container-top-left .items::before{
+  position: absolute;
+  content: "";
+  border: 6px solid black;
+  margin-left: -40px;
+  height: 40px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}

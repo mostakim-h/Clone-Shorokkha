@@ -1,3 +1,5 @@
+import Footer from "./Footer";
+
 const Home = () => {
     return (
         <div className="home">
@@ -105,6 +107,7 @@ const Home = () => {
                 </div>
             </div>
 
+            <Footer/>
         </div>
     );
 }

@@ -242,3 +242,47 @@
   margin-bottom: 10px;
 }
 /* home design end */
+
+/* registration design start */
+
+/* .registration{
+  height: 1200px;
+  background: red;
+} */
+
+/* .from-options{
+  height: 1200px;
+} */
+
+.from-options .title-bar {
+  background: rgb(255, 111, 0);
+  padding: 20px 0;
+}
+
+.from-options .title-bar h1{
+  max-width: 1200px;
+  margin: auto;
+  color: #ffffff;
+}
+
+.from-options-left{
+  max-width: 1200px;
+  margin: 20px auto 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.from-options-left button{
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: green;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: larger;
+  margin-right: 50px;
+  color: #ffffff;
+}
+
